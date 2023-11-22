@@ -275,16 +275,17 @@ table, audio, video {
     #trending ::-webkit-scrollbar-thumb:hover {
         background: #020659;
     }
-    #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+    
+    .playlists  ::-webkit-scrollbar {
         width: 15px;
     }
-    #playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+    .playlists ::-webkit-scrollbar-track{
         box-shadow: inset 0 0 15px #020659;
     }
-    #playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+    .playlists  ::-webkit-scrollbar-thumb {
         background: #020659;
     }
-    #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+    .playlists  ::-webkit-scrollbar-thumb:hover {
         background: #ffffff;
     }
 
@@ -468,7 +469,9 @@ table, audio, video {
         display:none;
     }
     
-    
+    #mobileheader a {
+        text-decoration:none;
+    }
     label span, input {
         display: none;
     }
@@ -582,16 +585,16 @@ table, audio, video {
     #trending ::-webkit-scrollbar-thumb:hover {
         background: #020659;
     }
-    #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+    .playlists  ::-webkit-scrollbar {
         width: 15px;
     }
-    #playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+    .playlists ::-webkit-scrollbar-track{
         box-shadow: inset 0 0 15px #020659;
     }
-    #playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+    .playlists  ::-webkit-scrollbar-thumb {
         background: #020659;
     }
-    #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+    .playlists  ::-webkit-scrollbar-thumb:hover {
         background: #ffffff;
     }
 
