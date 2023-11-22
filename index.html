@@ -11,19 +11,25 @@
 
 <!--Website Blurb-->
 <header>
-    <div id="blurb">
-        <h2 class="title">SMOOTH JAZZ </h2>
-        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s. </p>
-    </div>
+
     <!--Navigation Bar-->
+    <div id="mobileheader">
+        <a id="muzakmaker" href="#home"><h1>MuzakMaker</h1></a>
+    </div>
     <nav>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul>
-            <li><a href="#home">MuzakMaker</a></li>
-            <li><a href="trending">Trending Songs</a></li>
-            <li><a href="playlists">Your playlists</a></li>
-            <li><a href="curated">Curated Playlists</a></li>
-            <li><a href="user"><img src="images/duke-silver.png" alt="user profile picture"></a></li>
+            <li><a href="#home"><h1>MuzakMaker</h1></a></li>
+            <li><a href="#trending">Trending Songs</a></li>
+            <li><a href="#playlists">Your Playlists</a></li>
+            <li><a href="#curated">Curated Playlists</a></li>
+            <li><a href="#user"><img src="images/duke-silver.png" alt="user profile picture"></a></li>
         </ul>
+        <div id="blurb">
+            <h2 class="title">SMOOTH JAZZ </h2>
+            <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s. </p>
+        </div>
     </nav>
 </header>
 <main>
@@ -50,7 +56,7 @@
     <section>
         <div>
             <h3>My Road</h3>
-            <dl>
+            <dl class="trendingsongstext">
                 <dt>Artist</dt> 
                 <dd>Nesterouk</dd>
             </dl>
@@ -66,7 +72,7 @@
     <section>
         <div>
             <h3>Papaya</h3>
-            <dl>
+            <dl class="trendingsongstext">
                 <dt>Artist </dt>
                 <dd>Dredstudio</dd>
             </dl>
@@ -83,7 +89,7 @@
     <section>
         <div>
             <h3>Smoothies </h3>
-            <dl>
+            <dl class="trendingsongstext">
                 <dt>Artist</dt>
                 <dd>Black Rhomb</dd>
             </dl>
@@ -91,7 +97,7 @@
             <img src="images/smoothies-cover.png" alt="various fruits and smoothies">
             <audio 
                 controls
-                src="smoothies.mp3">
+                src="audio/smoothies.mp3">
                 Your browser does not support the <code>audio</code> element
             </audio>
     </section>
@@ -99,7 +105,7 @@
     <section>
         <div>
             <h3>Successful Performance </h3>
-            <dl>
+            <dl class="trendingsongstext">
                 <dt>Artist</dt>
                 <dd>Ricky Bombino</dd>
             </dl>
@@ -113,102 +119,102 @@
             
     </section>
 </div>
+
+<a class="more" href="#">More trending </a>
 </section>
 
-<!-- Button for More Trending-->
-<a class="more" href="#">More trending </a>
 
 <!--Your Playlists Section Vertical Scrollbar-->
 <div class="playlistflex">
 <section class="playlists">
-    <h2>Your Playlists </h2>
+    <h2 class="playlisttitles">Your Playlists </h2>
     <div class="scrollplaylists yourplaylists">
-    <section class="lightblue"> 
+    <div class="lightblue"> 
         <img src="images/best-of-2020-cover.png" alt="2020 on fire">
-        <dl trend>
+        <dl>
             <dt>Best of 2020</dt>
             <dd>The music that got you through the lock down.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="lightblue">
+    <div class="lightblue">
         <img src="images/pumpkin-spice-cover.png" alt="pumpkin spice latte">
         <dl>
             <dt>Pumpkin Spice</dt>
             <dd>Creamy and spicy, just like your favorite autumnal latte.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="lightblue">
+    <div class="lightblue">
         <img src="images/quiet-storm-cover.png" alt="storm photo">
         <dl>
             <dt>Quiet Storm</dt>
             <dd>Slow tempos and relaxed rhythms.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="lightblue">
+    <div class="lightblue">
         <img src="images/smooth-jazz-cover.png" alt="old guy">
         <dl>
             <dt>Smooth Jazz</dt>
             <dd>The pioneers of smooth jazz</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="lightblue">
+    <div class="lightblue">
         <img src="images/smooth-study-cover.png" alt="guy on a laptop">
         <dl>
             <dt>Smooth Study</dt>
             <dd>Background music to keep you going while you study. </dd>
         </dl>
-    </section>
+    </div>
     </div>
     <a class="more" href="#">All your playlists </a>
 </section>
 
 <!--Curated Playlists Section Vertical Scrollbar-->
 <section class="playlists">
-    <h2>Curated Playlists </h2>
+    <h2 class="playlisttitles">Curated Playlists </h2>
     <div class="scrollplaylists curatedplaylists">
-    <section class="darkblue">
+    <div class="darkblue">
         <img src="images/boozy-brunch-cover.png" alt="people having brunch and clinking glasses">
         <dl>
             <dt>Boozy Brunch</dt>
             <dd>Light up the afternoon with these energetic hits. </dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="darkblue">
+    <div class="darkblue">
         <img src="images/dinner-party-cover.png" alt="dinner at a candlelit table">
         <dl>
             <dt>Dinner Party </dt>
             <dd>Background music to give your party life, but allow your guests to chat.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="darkblue">
+    <div class="darkblue">
         <img src="images/mellow-cover.png" alt="two people in the forest sitting on a bench during a breezy autumnal day">
         <dl>
             <dt>Mellow</dt>
             <dd>Relax after a stressful day with this collection of extra smooth jazz.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="darkblue">
+    <div class="darkblue">
         <img src="images/jazz-chill-cover.png" alt="rose petals">
         <dl>
             <dt>Jazz and Chill</dt>
             <dd>Set the mood with these silky sounds.</dd>
         </dl>
-    </section>
+    </div>
 
-    <section class="darkblue">
+    <div class="darkblue">
         <img src="images/smooth-saxophone-cover.png" alt="a shiny saxophone amongst many other instruments being played">
         <dl>
             <dt>Jazz Saxophone</dt>
             <dd>The greatest collection of your sax favorites.</dd>
         </dl>
-    </section>
+    </div>
     </div>
     <a class="more" href="#"> More Curated </a>
     </section>
